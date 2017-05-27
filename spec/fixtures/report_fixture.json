@@ -1,0 +1,29 @@
+[
+  {
+    "rule_id" : "vertical_whitespace",
+    "reason" : "Limit vertical whitespace to a single empty line. Currently 2.",
+    "character" : null,
+    "file" : "\/Users\/user\/development\/adamyanalunas\/danger-swiftlint\/Controllers\/Controller.swift",
+    "severity" : "Warning",
+    "type" : "Vertical Whitespace",
+    "line" : 37
+  },
+  {
+    "rule_id" : "identifier_name",
+    "reason" : "Enum element name should start with a lowercase character: 'Bar'",
+    "character" : 10,
+    "file" : "\/Users\/user\/development\/adamyanalunas\/danger-swiftlint\/Controllers\/Controller.swift",
+    "severity" : "Error",
+    "type" : "Identifier Name",
+    "line" : 39
+  },
+  {
+    "rule_id" : "file_length",
+    "reason" : "File should contain 400 lines or less: currently contains 438",
+    "character" : null,
+    "file" : "\/Users\/user\/development\/adamyanalunas\/danger-swiftlint\/Controllers\/Controller.swift",
+    "severity" : "Warning",
+    "type" : "File Line Length",
+    "line" : 438
+  }
+]
