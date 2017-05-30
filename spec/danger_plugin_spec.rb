@@ -1,15 +1,15 @@
 require File.expand_path('../spec_helper', __FILE__)
 
 module Danger
-  describe DangerSwiftlint do
+  describe DangerSwiftLint do
     it 'is a plugin' do
-      expect(Danger::DangerSwiftlint < Danger::Plugin).to be_truthy
+      expect(Danger::DangerSwiftLint < Danger::Plugin).to be_truthy
     end
 
     describe 'with Dangerfile' do
       before do
         @dangerfile = testing_dangerfile
-        @swiftlint = @dangerfile.swiftlint
+        @swiftlint = @dangerfile.swift_lint
         @report_file = Dir.pwd + '/spec/fixtures/report_fixture.json'
         @report_json = JSON.parse File.read(@report_file, encoding:'utf-8')
 
