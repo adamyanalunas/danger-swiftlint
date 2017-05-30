@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'danger-swiftlint'
-  spec.version       = DangerSwiftlint::VERSION
+  spec.name          = 'danger-swift_lint'
+  spec.version       = DangerSwiftLint::VERSION
   spec.authors       = ['Adam Yanalunas']
   spec.email         = ['adam@yanalunas.com']
   spec.description   = 'A Danger plugin for displaying SwiftLint issues in your pull request'
@@ -14,7 +14,6 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
-  # spec.files         = Dir["{lib}/**/*", "LICENSE", "README.md"]
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 

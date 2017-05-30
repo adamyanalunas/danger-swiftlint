@@ -27,7 +27,7 @@ module Danger
   #
   # @tags lint, linting, swift, ios, macos, xcode
   #
-  class DangerSwiftlint < Plugin
+  class DangerSwiftLint < Plugin
     # Allows you to set which issue types are displayed.
     # Defaults to `[:warning", :error]`
     #
